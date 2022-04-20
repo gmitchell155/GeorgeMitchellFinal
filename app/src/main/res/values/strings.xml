@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">George Mitchell\'s Portfolio</string>
 
-    <string name="developer_name">George Mitchell</string>
+    <string name="developer_info">George Mitchell\nGeorge Mitchell\'s Portfolio</string>
 
 
 </resources>

@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             //displays acknowledgement message
             val builder = AlertDialog.Builder(binding.root.context)
                 .setTitle("About the Developer")
-                .setMessage("${R.string.developer_name}\n ${R.string.app_name}")
+                .setMessage(R.string.developer_info)
                 .setPositiveButton("ok", null)
                 .show()
         }
