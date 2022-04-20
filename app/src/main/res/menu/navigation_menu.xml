@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_navigation_menu"
+        android:title="Home" />
+    <item
+        android:id="@+id/portfolio_navigation_menu"
+        android:title="Portfolio" />
+    <item
+        android:id="@+id/about_navigation_menu"
+        android:title="About Me" />
+    <item
+        android:id="@+id/education_navigation_menu"
+        android:title="Education and Training" />
+    <item
+        android:id="@+id/contact_navigation_menu"
+        android:title="Contact" />
+    <item
+        android:id="@+id/developer_navigation_menu"
+        android:title="About the Developer" />
+</menu>
