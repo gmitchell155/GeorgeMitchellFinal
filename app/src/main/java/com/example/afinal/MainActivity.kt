@@ -27,9 +27,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.home_navigation_menu){
+            var myWebView: WebView = findViewById(R.id.test)
+            myWebView.loadUrl("file:///android_asset/index.html")
+        }
+
         if(item.itemId == R.id.portfolio_navigation_menu){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/portfolio.html")
+        }
+
+        if(item.itemId == R.id.about_navigation_menu){
+            var myWebView: WebView = findViewById(R.id.test)
+            myWebView.loadUrl("file:///android_asset/about.html")
         }
 
         if(item.itemId == R.id.education_navigation_menu){
