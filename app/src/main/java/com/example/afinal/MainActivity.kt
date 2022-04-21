@@ -10,12 +10,12 @@ import com.example.afinal.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val myWebView: WebView = findViewById(R.id.test)
+        var myWebView: WebView = findViewById(R.id.test)
         myWebView.loadUrl("file:///android_asset/index.html")
         myWebView.settings.javaScriptEnabled = true
 
@@ -27,6 +27,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.portfolio_navigation_menu){
+            var myWebView: WebView = findViewById(R.id.test)
+            myWebView.loadUrl("file:///android_asset/portfolio.html")
+        }
+
         if(item.itemId == R.id.developer_navigation_menu){
             //displays acknowledgement message
             val builder = AlertDialog.Builder(binding.root.context)
