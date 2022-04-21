@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val myWebView: WebView = findViewById(R.id.test)
         myWebView.loadUrl("file:///android_asset/index.html")
+        myWebView.settings.javaScriptEnabled = true
 
     }
 
