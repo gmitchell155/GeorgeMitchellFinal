@@ -19,4 +19,8 @@
     <item
         android:id="@+id/developer_navigation_menu"
         android:title="About the Developer" />
+    <item
+        android:id="@+id/exampleSite_navigation_menu"
+        android:title="Example Site 1" />
+    <item android:title="Example Site 2" />
 </menu>

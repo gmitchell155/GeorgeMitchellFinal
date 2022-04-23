@@ -55,6 +55,10 @@ class MainActivity : AppCompatActivity() {
                 .setPositiveButton("ok", null)
                 .show()
         }
+
+        if(item.itemId == R.id.exampleSite_navigation_menu){
+
+        }
         return super.onOptionsItemSelected(item)
     }
 
