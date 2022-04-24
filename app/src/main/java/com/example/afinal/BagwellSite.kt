@@ -13,7 +13,8 @@ class BagwellSite : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityBagwellSiteBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        var myWebView: WebView = findViewById(R.id.test)
-        myWebView.loadUrl("")
+        var myWebView: WebView = findViewById(R.id.bagwell_webView)
+        myWebView.loadUrl("file:///android_asset/bagwell/index.html")
+        myWebView.settings.javaScriptEnabled = true
     }
 }

@@ -48,6 +48,11 @@ class MainActivity : AppCompatActivity() {
             myWebView.loadUrl("file:///android_asset/education.html")
         }
 
+        if(item.itemId == R.id.contact_navigation_menu){
+            var myWebView: WebView = findViewById(R.id.test)
+            myWebView.loadUrl("file:///android_asset/contact.html")
+        }
+
         if(item.itemId == R.id.developer_navigation_menu){
             //displays acknowledgement message
             val builder = AlertDialog.Builder(binding.root.context)

@@ -95,7 +95,7 @@ body{
 section{
 	color: 	black;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 20px;
 	text-shadow: 1px 1px 1px #fff;
 }
 form {
@@ -319,10 +319,14 @@ footer a{
 		font-size: 2.5em;
 	}
 
+	.images{
+	    margin-left:-80px;
+	}
+
     #Photography img{
         width:250px;
         height:250px;
-        margin-left:-10px;
+        margin-left:-30px;
     }
 
     #paragraph{
@@ -333,6 +337,18 @@ footer a{
 	#main{
 		margin:0;
 	}
+
+	.tab_format{
+        text-align:center;
+        width: 100%;
+        margin-right:auto;
+    }
+
+    .tab_format_right{
+        text-align:center;
+        width: 100%;
+        margin-left:auto;
+    }
 	
     
 
