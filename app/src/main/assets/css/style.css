@@ -201,7 +201,7 @@ footer a{
     margin-left:auto;   
 }
 
-#paragraph{
+.paragraph{
     float:right; 
     width:40%; 
     font-size:20px;
@@ -247,7 +247,7 @@ footer a{
 			}
 			
 			
-			#paragraph{
+			.paragraph{
                 width:100%;
             }
 
@@ -329,7 +329,7 @@ footer a{
         margin-left:-30px;
     }
 
-    #paragraph{
+    .paragraph{
         width:100%;
     }
 

@@ -65,11 +65,20 @@ class MainActivity : AppCompatActivity() {
         if(item.itemId == R.id.exampleSite_navigation_menu){
             openBagwellActivity()
         }
+
+        if(item.itemId == R.id.exampleSite2_navigation_menu){
+            openClubSiteActivity()
+        }
         return super.onOptionsItemSelected(item)
     }
 
     private fun openBagwellActivity() {
         val intent = Intent(this, BagwellSite::class.java)
+        startActivity(intent)
+    }
+
+    private fun openClubSiteActivity(){
+        val intent = Intent(this, ClubSite::class.java)
         startActivity(intent)
     }
 
