@@ -1,0 +1,100 @@
+
+#wrapper{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1280px;
+	padding-right: 0;
+	padding-left : 0;
+	
+}
+
+#logo{
+	float:left;
+	clear:both;
+	
+}
+
+body{
+	padding-top:20px;
+	color:white;
+	background-color:deepskyblue;
+	padding-bottom:0;
+}
+footer{
+	text-align:center;
+	background-color:whitesmoke;
+	color:black;
+}
+
+
+main{
+	padding-left:2em;
+	padding-right:2em;
+	font-size:15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+
+
+
+#contact{
+	margin-left:30px;
+	font-size:12px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-top:30px;
+}
+
+
+#format{
+	font-weight:bold;
+	font-style:italic;
+	font-size:13px;
+	text-align:center;
+}
+
+.column {
+		
+		float: left;
+		width:45%;
+		padding-left:40px;
+		
+}
+
+
+
+
+@media only screen and (max-width: 742px){
+	h5{
+		font-size:14px;
+		text-align:center;
+	}
+	
+	.sliderText{
+		font-size:12px;
+		text-align:center;
+	}
+	
+	body{
+		min-width:500px;
+	}
+	
+	main{
+		min-width:500px;
+	}
+	
+	.padleft{
+		padding-left:15px;
+	}
+	
+	.padright{
+		padding-right:15px;
+	}
+	
+	video{
+		min-width:200px;
+		min-height:200px;
+	}
+	
+	
+}
