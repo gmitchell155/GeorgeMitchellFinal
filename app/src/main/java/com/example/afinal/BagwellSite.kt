@@ -1,7 +1,10 @@
 package com.example.afinal
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.webkit.WebView
 import com.example.afinal.databinding.ActivityBagwellSiteBinding
 import com.example.afinal.databinding.ActivityMainBinding
@@ -16,5 +19,53 @@ class BagwellSite : AppCompatActivity() {
         var myWebView: WebView = findViewById(R.id.bagwell_webView)
         myWebView.loadUrl("file:///android_asset/bagwell/index.html")
         myWebView.settings.javaScriptEnabled = true
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.example_site_navigation_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.home_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/index.html")
+        }
+
+        if(item.itemId == R.id.majors_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/majors.html")
+        }
+
+        if(item.itemId == R.id.courses_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/courses.html")
+        }
+
+        if(item.itemId == R.id.classes_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/class.html")
+        }
+
+        if(item.itemId == R.id.work_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/work.html")
+        }
+
+        if(item.itemId == R.id.contact_menu_item){
+            var myWebView: WebView = findViewById(R.id.bagwell_webView)
+            myWebView.loadUrl("file:///android_asset/bagwell/contact.html")
+        }
+
+        if(item.itemId == R.id.main_menu_item){
+            openMainActivity()
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun openMainActivity() {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

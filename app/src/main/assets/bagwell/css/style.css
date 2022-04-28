@@ -1,32 +1,5 @@
 * {box-sizing: border-box}
-nav {
-    overflow: hidden;
-    background-color: blue;
-    margin-bottom:20px;
-}
 
-nav li a {
-    float: left;
-    display: block;
-    color: #F2F2F2;
-    text-align: center;
-    padding:10px;
-    text-decoration: none;
-}
-
-nav li{
-    margin-left:-40px;
-}
-
-li a:visited{
-    color:yellow;
-}
-
-nav a:hover{	
-    
-    background-color: #DDD;
-    color: black;
-}
 p img{
     display:block;
     margin-left:auto;
@@ -38,11 +11,6 @@ h1{
 
 h1, h2, h3, h4{
     font-family: Arial, Helvetica, sans-serif;
-}
-
-nav li{
-    display:inline;
-    padding-right: 25px;
 }
 
 #wrapper{
@@ -229,12 +197,12 @@ iframe{
     padding-right:30px;
 }
 
-#fig_format{
+.fig_format{
     float:right;
     width:30%;
 }
 
-#professors{
+.professors{
     display:none;
 }
 
@@ -341,7 +309,7 @@ iframe{
         text-align:center;
     }
 
-    #fig_format figcaption{
+    .fig_format figcaption{
         width:80%;
         display:inline-block;
     }
@@ -379,7 +347,7 @@ td, th{
     }
 
 
-    #fig_format{
+    .fig_format{
         display:none;
     }
 }
@@ -393,7 +361,7 @@ td, th{
         display:none;
     }
 
-    #professors{
+    .professors{
         display:block;
         text-align:center;
     }
