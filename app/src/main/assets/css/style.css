@@ -207,13 +207,14 @@ footer a{
     font-size:20px;
 }
 
-#left_image{
+.alignment{
     float:left; 
     width:40%; 
     text-align:center;
 	padding-left:40px;
 }
 
+/*
 #right_video{
     float:right; 
 	padding-left:50px;
@@ -227,12 +228,14 @@ footer a{
     height:300px;
 }
 
+*/
+
 @media only screen and (max-width:1300px){
     #right_video{
         width:70%;
     }
 
-    #left_image{ 
+    .alignment{
         width:20%; 
         
     }
@@ -273,7 +276,7 @@ footer a{
             width:100%;
         }
     
-        #left_image{ 
+        .alignment{
             width:100%; 
             
         }
@@ -307,7 +310,7 @@ footer a{
 
 @media only screen and (max-width:550px) {
 
-    #left_image{
+    .alignment{
          margin-left:-20px;
          margin-right:0
 
@@ -320,7 +323,7 @@ footer a{
 	}
 
 	.images{
-	    margin-left:-80px;
+	    float:left;
 	}
 
     #Photography img{

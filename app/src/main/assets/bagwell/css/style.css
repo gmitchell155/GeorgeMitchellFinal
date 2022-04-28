@@ -222,7 +222,7 @@ iframe{
     margin-left:-200px;
 }
 
-#course{
+.course{
     clear:both;
     float:right; 
     width:60%; 
@@ -313,7 +313,7 @@ iframe{
     }
     
 
-    #course{
+    .course{
         width:90%;
         text-align:left; 
         clear:both;
@@ -404,9 +404,13 @@ td, th{
         float:left;
         border: 1px solid rgb(129, 116, 116);
         background-color: gray;
-        width:80%;
+        width:90%;
         height:235px;
         overflow:show;
+    }
+
+    .tabcontent{
+        width: 90%;
     }
 
     .tab button{

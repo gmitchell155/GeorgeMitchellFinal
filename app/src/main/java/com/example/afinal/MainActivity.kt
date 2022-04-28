@@ -28,32 +28,32 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(item.itemId == R.id.home_navigation_menu){
+        if(item.itemId == R.id.home_menu_item){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/index.html")
         }
 
-        if(item.itemId == R.id.portfolio_navigation_menu){
+        if(item.itemId == R.id.portfolio_menu_item){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/portfolio.html")
         }
 
-        if(item.itemId == R.id.about_navigation_menu){
+        if(item.itemId == R.id.about_menu_item){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/about.html")
         }
 
-        if(item.itemId == R.id.education_navigation_menu){
+        if(item.itemId == R.id.education_menu_item){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/education.html")
         }
 
-        if(item.itemId == R.id.contact_navigation_menu){
+        if(item.itemId == R.id.contact_menu_item){
             var myWebView: WebView = findViewById(R.id.test)
             myWebView.loadUrl("file:///android_asset/contact.html")
         }
 
-        if(item.itemId == R.id.developer_navigation_menu){
+        if(item.itemId == R.id.developer_menu_item){
             //displays acknowledgement message
             val builder = AlertDialog.Builder(binding.root.context)
                 .setTitle("About the Developer")
@@ -62,11 +62,11 @@ class MainActivity : AppCompatActivity() {
                 .show()
         }
 
-        if(item.itemId == R.id.exampleSite_navigation_menu){
+        if(item.itemId == R.id.exampleSite_menu_item){
             openBagwellActivity()
         }
 
-        if(item.itemId == R.id.exampleSite2_navigation_menu){
+        if(item.itemId == R.id.exampleSite2_menu_item){
             openClubSiteActivity()
         }
         return super.onOptionsItemSelected(item)

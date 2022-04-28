@@ -3,28 +3,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home_navigation_menu"
+        android:id="@+id/home_menu_item"
         android:title="Home"
         android:visible="true" />
     <item
-        android:id="@+id/portfolio_navigation_menu"
+        android:id="@+id/portfolio_menu_item"
         android:title="Portfolio" />
     <item
-        android:id="@+id/about_navigation_menu"
+        android:id="@+id/about_menu_item"
         android:title="About Me" />
     <item
-        android:id="@+id/education_navigation_menu"
+        android:id="@+id/education_menu_item"
         android:title="Education and Training" />
     <item
-        android:id="@+id/contact_navigation_menu"
+        android:id="@+id/contact_menu_item"
         android:title="Contact" />
     <item
-        android:id="@+id/developer_navigation_menu"
+        android:id="@+id/developer_menu_item"
         android:title="About the Developer" />
     <item
-        android:id="@+id/exampleSite_navigation_menu"
+        android:id="@+id/exampleSite_menu_item"
         android:title="Example Site 1" />
     <item
-        android:id="@+id/exampleSite2_navigation_menu"
+        android:id="@+id/exampleSite2_menu_item"
         android:title="Example Site 2" />
 </menu>
