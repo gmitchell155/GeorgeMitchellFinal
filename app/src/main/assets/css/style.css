@@ -131,17 +131,16 @@ input, textarea{
 }
 header{
 	text-align:center;
-    color:white;
     clear:both;
 	padding-top:5px;
-	padding-bottom:5px;
 	border: solid 2px black;
-	background-image: url("../images/Ijams.jpg");
+	background-color:rgb(61, 187, 236);
+    color:white;
 	
 }
 header h1{
 	
-	color:black;
+	color:white;
 }
 footer {
     text-align:center;

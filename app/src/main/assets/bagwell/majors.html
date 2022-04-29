@@ -14,7 +14,9 @@
 
    
     <main>
-        
+        <header>
+            <h1>Majors</h1>
+        </header>
         <div class="tab">
             <button class="tablinks"  onclick="openMajors(event, 'APE')" id="default" >Audio Production Engineering</button>
             <button class="tablinks" onclick="openMajors(event, 'DWP')">Design for Web and Print</button>
@@ -25,15 +27,17 @@
         </div>
 
         <div id="APE" class="tabcontent">
-            <h3 class ="tab_format">Audio Production Engineering</h3>
+            <h3 class="tab_format">Audio Production Engineering</h3>
                 <figure id="fig_format">
-                    <img onload="document.getElementById('default').click();" src="images/mdt-top.jpg" alt="Students working with audio technology" width="200px"/>
-                    <figcaption>
-                        Students working with Audio Production Technology.
+                    <img style="float:left" onload="document.getElementById('default').click();" src="images/mdt-top.jpg" alt="Students working with audio technology" width="200px"/>
+                    <figcaption style="float:left; margin-left:-50px; text-align:center">
+                        Students working with Audio Production<br>
+                        Technology.
                         Image from Pellissippi State
-                        Community College website.
-                    </figcaption>
+                        <br>Community College website.
+                    </figcaption><br>
                 </figure>
+
         <div class ="tab_format">
             <p>
                 The Audio Production Engineering concentration educates students in the 
