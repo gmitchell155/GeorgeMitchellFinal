@@ -21,11 +21,16 @@ body{
 	background-color:deepskyblue;
 	padding-bottom:0;
 }
-footer{
+footer, header{
 	text-align:center;
 	background-color:whitesmoke;
 	color:black;
 	padding-bottom:30px;
+}
+
+header{
+    padding-bottom:0px;
+    text-align:left;
 }
 
 
