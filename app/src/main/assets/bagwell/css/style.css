@@ -23,7 +23,7 @@ h1, h2, h3, h4{
 }
 
 #wrapper{
-    width: 80%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     background-color: #F3F3F9;
@@ -41,7 +41,7 @@ body{
     
 }
 main{
-    font-size:15px;
+    font-size:18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main a{
@@ -126,24 +126,7 @@ footer a{
     
 }
 
-.tab_format{
-   
-    width: 50%; 
-    margin-right:auto;
-    padding-right:10px;
-    padding-left:40px;
- 
-}
 
-.tab_format_course{
-   
-    width: 50%; 
-    margin-right:auto;
-    padding-right:10px;
-    padding-left:40px;
-    text-align:left;
-    
-}
 
 .tab_format h3{
     text-align:center;
@@ -201,9 +184,6 @@ iframe{
 
 .course{
     clear:both;
-    float:right; 
-    width:60%; 
-    padding-right:30px;
 }
 
 .fig_format{
