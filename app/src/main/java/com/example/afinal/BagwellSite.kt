@@ -42,11 +42,7 @@ class BagwellSite : AppCompatActivity() {
             var myWebView: WebView = findViewById(R.id.bagwell_webView)
             myWebView.loadUrl("file:///android_asset/bagwell/courses.html")
         }
-        //opens class.html
-        if(item.itemId == R.id.classes_menu_item){
-            var myWebView: WebView = findViewById(R.id.bagwell_webView)
-            myWebView.loadUrl("file:///android_asset/bagwell/class.html")
-        }
+
         //opens work.html
         if(item.itemId == R.id.work_menu_item){
             var myWebView: WebView = findViewById(R.id.bagwell_webView)
