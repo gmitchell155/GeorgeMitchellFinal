@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1015" />
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/layout/activity_bagwell_site.xml" value="0.1" />
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/layout/activity_club.xml" value="0.2318840579710145" />
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/layout/activity_club_site.xml" value="0.2318840579710145" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/menu/example_site2_navigation_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/menu/example_site_navigation_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/menu/navigation_menu.xml" value="0.264" />
+        <entry key="..\:/Users/gmitc/AndroidStudioProjects/Final/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1015" />
       </map>
     </option>
   </component>
