@@ -4,27 +4,27 @@
 
     <item
         android:id="@+id/home_menu_item"
-        android:title="Home"
+        android:title="@string/menu_list_home"
         android:visible="true" />
     <item
         android:id="@+id/portfolio_menu_item"
-        android:title="Portfolio" />
+        android:title="@string/menu_list_portfolio" />
     <item
         android:id="@+id/about_menu_item"
-        android:title="About Me" />
+        android:title="@string/menu_list_about" />
     <item
         android:id="@+id/education_menu_item"
-        android:title="Education and Training" />
+        android:title="@string/menu_list_education" />
     <item
         android:id="@+id/contact_menu_item"
-        android:title="Contact" />
+        android:title="@string/menu_list_contact" />
     <item
         android:id="@+id/developer_menu_item"
-        android:title="About the Developer" />
+        android:title="@string/menu_list_developer" />
     <item
         android:id="@+id/exampleSite_menu_item"
-        android:title="Example Site 1" />
+        android:title="@string/menu_list_exampleSite1" />
     <item
         android:id="@+id/exampleSite2_menu_item"
-        android:title="Example Site 2" />
+        android:title="@string/menu_list_exampleSite2" />
 </menu>

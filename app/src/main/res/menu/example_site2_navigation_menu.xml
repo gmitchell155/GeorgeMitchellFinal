@@ -4,23 +4,23 @@
 
     <item
         android:id="@+id/home_menu_item"
-        android:title="Home" />
+        android:title="@string/menu_list_home" />
     <item
         android:id="@+id/development_menu_item"
-        android:title="Personal Development" />
+        android:title="@string/menu_list_personaldev" />
     <item
         android:id="@+id/tutoring_menu_item"
-        android:title="Summer Tutoring" />
+        android:title="@string/menu_list_tutoring" />
     <item
         android:id="@+id/adventures_menu_item"
-        android:title="Adventures" />
+        android:title="@string/menu_list_adventures" />
     <item
         android:id="@+id/volunteen_menu_item"
-        android:title="VolunTeen Enrichment" />
+        android:title="@string/menu_list_volunteen" />
     <item
         android:id="@+id/mentoring_menu_item"
-        android:title="Mentoring" />
+        android:title="@string/menu_list_mentoring" />
     <item
         android:id="@+id/main__menu_item"
-        android:title="Return to Main Site" />
+        android:title="@string/menu_list_main" />
 </menu>

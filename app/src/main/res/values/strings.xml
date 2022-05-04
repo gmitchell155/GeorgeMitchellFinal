@@ -1,7 +1,33 @@
 <resources>
     <string name="app_name">George Mitchell\'s Portfolio</string>
 
-    <string name="developer_info">George Mitchell\nGeorge Mitchell\'s Portfolio</string>
+    <string name="menu_list_developer">About the Developer</string>
+    <string name="developer_info">
+        George Mitchell\nGeorge Mitchell\'s Portfolio\n\n
+        This app is my Final project for CSCI 4020.
+        The goal of this app is to showcase my web design skills.
+    </string>
 
+    <string name="menu_list_home">Home</string>
+    <string name="menu_list_contact">Contact</string>
+
+    <string name="menu_list_portfolio">Portfolio</string>
+    <string name="menu_list_about">About Me</string>
+    <string name="menu_list_education">Education and Training</string>
+    <string name="menu_list_exampleSite1">Example Site 1</string>
+    <string name="menu_list_exampleSite2">Example Site 2</string>
+
+    <string name="menu_list_majors">Majors</string>
+    <string name="menu_list_courses">Courses</string>
+    <string name="menu_list_work">Student Work</string>
+
+
+    <string name="menu_list_adventures">Adventures</string>
+    <string name="menu_list_mentoring">Mentoring</string>
+    <string name="menu_list_personaldev">Personal Development</string>
+    <string name="menu_list_tutoring">Summer Tutoring</string>
+    <string name="menu_list_volunteen">VolunTeen Enrichment</string>
+
+    <string name="menu_list_main">Return to Main Site</string>
 
 </resources>

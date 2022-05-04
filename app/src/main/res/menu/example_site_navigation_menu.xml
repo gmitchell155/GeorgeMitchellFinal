@@ -3,20 +3,20 @@
 
     <item
         android:id="@+id/home_menu_item"
-        android:title="Home" />
+        android:title="@string/menu_list_home" />
     <item
         android:id="@+id/majors_menu_item"
-        android:title="Majors" />
+        android:title="@string/menu_list_majors" />
     <item
         android:id="@+id/courses_menu_item"
-        android:title="Courses" />
+        android:title="@string/menu_list_courses" />
     <item
         android:id="@+id/work_menu_item"
-        android:title="Student Work" />
+        android:title="@string/menu_list_work" />
     <item
         android:id="@+id/contact_menu_item"
-        android:title="Contact" />
+        android:title="@string/menu_list_contact" />
     <item
         android:id="@+id/main_menu_item"
-        android:title="Return to Main Site" />
+        android:title="@string/menu_list_main" />
 </menu>
