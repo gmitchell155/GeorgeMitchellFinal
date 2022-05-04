@@ -29,3 +29,5 @@ HTML and CSS has been changed to better conform to a mobile view.
 Navigation Menus have been removed from each page and replaced with a menu created in android studio. 
 New PHP file was added online to handle user submissions and give user appropriate instructions. 
 You can compare the files with what is online to see the full list of changes.
+
+As a side note the contact pages will show an error, but they work. I supressed the errors since it seemed to be an issue with form labels.
