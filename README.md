@@ -16,7 +16,9 @@ It also conatins an options menu to navigate to the different pages.
 You can return to the main activity by pressing the Return to Main Site menu item.
 
 The ClubSite Activity displays my second example site. You access it by clicking on the Example Site 2 menu item on in the MainActivity.
-It also conatins an options menu to navigate to the different pages. 
+It also conatins an options menu to navigate to the different pages.
+This site is a little difefernt from the others becasue it contains a two column layout.
+I've kept this layout in order to reflect my usage of DreamWeaver.
 You can return to the main activity by pressing the Return to Main Site menu item.
 
 As stated this is a modified version of my online portfolio.
